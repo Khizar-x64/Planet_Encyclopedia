@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="#FDFFEE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainSc"
+        android:text="@string/planet_encyclopedia"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainScBtn"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="120dp"
+        android:text="@string/search"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+</RelativeLayout>
